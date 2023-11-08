@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<head>
+    <meta content="Roman Rafael Walden Nieto" name="author" />
+    <title>Mi cocina online</title>
+    <style>
+        body h1 {
+            font-family:Arial, Helvetica, sans-serif
+        }
+    </style>
+    <script>
+        function calculate_ml_2_oz(amount){
+            var oz = 0.03381402;
+            var result;
+            result = amount * oz;
+            document.getElementById("volume_input_oz_id").value = result;
+        }
+        function calculate_oz_2_ml(amount){
+            var ml = 28.41306;
+            var result;
+            result = amount * ml;
+            document.getElementById("volume_input_ml_id").value = result;
+        }
+    </script>
+</head>
+
+<html>
+    <body>
+        <h1>Aqui encontraras todo lo que necesitas para tu cocina</h1>
+        <div id="featured">
+            <header>
+                <p style="font-family: Arial, Helvetica, sans-serif;">Te presentamos nuestros mejores vasos medidores</p>
+                <img src="https://cdn.commercehq.com/commercehq-store-2e61c4507a392b1886f4a205384bb4b4_489c29fba642b38cb1c610390c2cd4bfeaf1c93a/85b2285dfa354fe7a5e0037d76cb4f9e_ezgif.com-gif-maker_2.gif"></img>
+            </header>
+            <ul>
+                <li><a href="#">Metalicos</a></li>
+                <li><a href="#">Plasticos</a></li>
+                <li><a href="#">Medidas metricas</a></li>
+                <li><a href="#">Medidas imperiales</a></li>
+            </ul>
+            <div id="calculate_volume_id">
+                <p>Y por si necesitas mas informacion</p>
+                <table>
+                    <tr>
+                        <th>Mililitros</td>
+                        <th>Onzas</td>
+                    </tr>
+                    <tr>
+                        <td><input id="volume_input_ml_id" onkeydown="calculate_ml_2_oz(this.value)"/></td>
+                        <td><input id="volume_input_oz_id" onkeydown="calculate_oz_2_ml(this.value)"/></td>
+                    </tr>
+                </table>
+                
+
+                
+
+            </div>
+        </div>
+    </body>
+</html>
