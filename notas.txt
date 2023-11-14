@@ -1,0 +1,7 @@
+-Con Luismi no hace falta memorizar los conceptos (Pero sí comprenderlos). No memorizar: Qué es una consulta (query),...
+- No va a preguntar nada de lo que ponga FPPRO. El examen lo hace él y están en sus apuntes, no pregunta nada que no este en los ejercicios
+- LLMM es práctica
+- BDD es teórica
+- Sistemas informáticos es mixto
+- Estos ejercicios de sistemas informaticos entraran en el examen
+- El examen es tipo test

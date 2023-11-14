@@ -1,0 +1,182 @@
+﻿Ejercicios “Hola Mundo 2”
+
+1. Crea una página HTML que muestre tu nombre como encabezado de nivel 1 (`<h1>`)
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+	<h1>Roman Walden</h1>
+</body>
+</html>
+
+2. Crea una página HTML con un párrafo (`<p>`) que describa tu color favorito.
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+	<p>Azul</p>
+</body>
+</html>
+
+3. Crea una página HTML que contenga una lista no ordenada (`<ul>`) con al menos tres
+cosas que te gusten.
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+	<ul>
+		<li>Lentejas</li>
+		<li>Patatas</li>
+		<li>Cebolla</li>
+	</ul>
+</body>
+</html>
+
+4. Escribe una página HTML que incluya una lista ordenada (`<ol>`) con tus tres actividades
+deportivas favoritas.
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+	<ol>
+		<li>1. Esquí</li>
+		<li>2. Escalada</li>
+		<li>3. Baloncesto</li>
+	</ol>
+</body>
+</html>
+
+5. Crea una página HTML con una imagen de un gato. Utiliza la etiqueta `<img>` y
+asegúrate de que la imagen esté almacenada localmente.
+Ayuda: (la imagen tiene que estar en el mismo directorio que el .html)
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+	<img src="imagen_gatito.jpg" alt="Imagen de un gato">
+</body>
+</html>
+
+6. Crea una página HTML con un enlace (`<a>`) que dirija a tu sitio web favorito.
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+	<a href="https://www.duckduckgo.com">Buscador por defecto</a>
+</body>
+</html>
+
+7. Crea una página HTML que tenga un encabezado de nivel 2 (`<h2>`) que diga "Mis
+materias favoritas" y una lista ordenada con tres materias.
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+	<h2>Mis materias favoritas</h2>
+	<ol>
+		<li>Programación</li>
+		<li>Base de datos</li>
+		<li>Sistemas informáticos</li>
+	</ol>
+</body>
+</html>
+
+8. Escribe una página HTML con un párrafo (`<p>`) que contenga una cita famosa y utilice
+la etiqueta `<blockquote>` para destacar la cita.
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+	<p><blockquote>Cada día sabemos más y entendemos menos</blockquote> (Albert Einstein).</p>
+</body>
+</html>
+
+9. Escribe una página HTML que incluya un encabezado de nivel 3 (`<h3>`) y un párrafo
+explicando tu película favorita.
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+	<h3>Mi película favorita</h3>
+	<p>Pulp fiction. Los diálogos son magníficos, el ritmo es agradable y aprendes inglés</p>
+</body>
+</html>
+
+10. Crea una página HTML que contenga una lista desordenada con tres tipos de frutas.
+Utiliza la etiqueta `<ul>` y agrega imágenes de las frutas junto a sus nombres.
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+	<ul>Frutas
+		<li><img href="https://www.millerchemical.com/es/wp-content/uploads/sites/2/2021/03/apple-1199340951.png" alt="Imagen de una manzana">Manzana</li>
+		<li><img href="https://agrochinita.cl/wp-content/uploads/2020/04/PLATANO.png" alt="Imagen de un plátano">Plátano</li>
+		<li><img href="https://www.goodwholefood.com/wp-content/uploads/2016/08/pear-single-green.jpg" alt="Imagen de una pera">Pera</li>
+	</ul>
+</body>
+</html>
+
+11. Escribe una página HTML con una lista ordenada que enumere tus tres estaciones del
+año favoritas.
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+	<ul>
+		<li>Otoño</li>
+		<li>Invierno</li>
+		<li>Primavera</li>
+	</ul>
+</body>
+</html>
+
+12. Crea una página HTML que incluya un encabezado de nivel 4 (`<h4>`) que diga "Mis
+pasatiempos" y una lista desordenada con tres pasatiempos.
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+	<h4>Mis pasatiempos</h4>
+	<ul>
+		<li>Programación</li>
+		<li>Ajedrez</li>
+		<li>Pasear</li>
+	</ul>
+</body>
+</html>
